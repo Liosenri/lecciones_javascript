@@ -70,3 +70,8 @@ function obtenerResultado(numero_a, numero_b) {
 
 const resultadoSuma = obtenerResultado(7, 10);
 console.log("resultadoSuma ", resultadoSuma);
+
+function imprimirResta(numero_a, numero_b) {
+  const resultado = numero_a - numero_b;
+  console.log("imprimirResta : ", resultado);
+}
